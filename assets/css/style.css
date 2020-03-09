@@ -134,12 +134,13 @@ ol, ul {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: -10rem;
         overflow: hidden; }
       .slide-banner .carousel.slide .carousel-inner .carousel-item .video-retail {
         object-position: 0;
         overflow: hidden;
         filter: brightness(50%); }
+      .slide-banner .carousel.slide .carousel-inner .carousel-item .video-insurance {
+        object-position: -10rem; }
     .slide-banner .carousel.slide .carousel-control-prev span .fa-chevron-circle-left {
       font-size: 4.6rem;
       color: white; }

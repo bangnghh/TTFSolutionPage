@@ -214,13 +214,15 @@ ol, ul {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          object-position: -10rem;
           overflow: hidden;
         }
         .video-retail{
           object-position: 0;
           overflow: hidden;
           filter: brightness(50%);
+        }
+        .video-insurance{
+          object-position: -10rem;
         }
       }
     }
