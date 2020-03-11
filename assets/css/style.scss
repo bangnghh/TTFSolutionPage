@@ -624,6 +624,10 @@ footer {
 
 // Media
 @media (max-width: 576px){
+  .logo{
+    width: 16rem!important;
+    height: 4rem!important;
+  }
   .carousel.slide {
 
     height: 45rem!important;
