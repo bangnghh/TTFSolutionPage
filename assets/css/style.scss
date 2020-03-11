@@ -48,7 +48,7 @@ ol, ul {
 // CSS FOR HEADER
 .header {
   width: 100%;
-  background: $white-fa;
+  background: white;
   transition: 0.4s;
   //border-bottom: 3px solid white;
 
@@ -60,9 +60,12 @@ ol, ul {
       .navbar-brand {
         font-size: 2.2rem;
         color: $main-red;
-        border: 1px solid $main-blue;
         padding: 0px 2rem;
         border-radius: 0.4rem;
+        img{
+          width: 20rem;
+          height: 5rem;
+        }
       }
 
       .navbar-collapse {
@@ -103,7 +106,7 @@ ol, ul {
 
   background: $white-fa;
 
-  .carousel.slide {
+  .carousel {
 
     height: 77rem;
 
@@ -911,4 +914,5 @@ footer {
 .flag-height {
   height: 1.5rem !important;
 }
+
 
