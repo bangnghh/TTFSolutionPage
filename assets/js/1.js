@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(window).scrollTop() > 40) {
-            $(".logo").attr("src", "assets/img/logo-white.png");
+            $(".logo").attr("src", "https://bangnghh.github.io/TTFSolutionPage/assets/img/logo-white.png");
             $(".navbar").removeClass("navbar-light");
             $(".navbar").addClass("navbar-dark");
             $(".navbar").addClass("navbar-dark");
@@ -12,7 +12,7 @@ $(document).ready(function () {
             $(".lan-flag").addClass("flag-height");
             $(".lan-flag").removeClass("ml-2");
         } else {
-            $(".logo").attr("src", "assets/img/logo.png");
+            $(".logo").attr("src", "https://bangnghh.github.io/TTFSolutionPage/assets/img/logo.png");
             $(".navbar").addClass("navbar-light");
             $(".navbar").removeClass("navbar-dark");
             $(".navbar-brand").removeClass("red-font");
