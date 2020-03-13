@@ -398,10 +398,29 @@ footer {
     margin-left: 5rem;
     margin-bottom: 2rem;
     display: block; }
+  .contact-map-frame .col-md-6 p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    margin-left: 5rem;
+    margin-bottom: 1rem; }
+  .contact-map-frame .col-md-6 span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: 3rem; }
   .contact-map-frame .col-md-6 iframe {
     width: 100%;
     height: 40rem;
     margin-left: 5rem; }
+
+.join-us-banner {
+  background: url("../../assets/img/join-us.jpg") no-repeat fixed !important;
+  background-size: cover !important; }
 
 @media (max-width: 576px) {
   .logo {
@@ -562,6 +581,10 @@ footer {
   .contact-map-frame .col-md-6 {
     padding: 2rem 2rem; }
     .contact-map-frame .col-md-6 h4 {
+      margin-left: 0 !important; }
+    .contact-map-frame .col-md-6 p {
+      margin-left: 0 !important; }
+    .contact-map-frame .col-md-6 span {
       margin-left: 0 !important; }
     .contact-map-frame .col-md-6 iframe {
       width: 100%;
