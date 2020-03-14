@@ -44,6 +44,8 @@ ol, ul {
         font-size: 1.8rem; }
       .header .container .bg-dark .navbar-collapse .navbar-nav .nav-item img {
         height: 1.6rem; }
+      .header .container .bg-dark .navbar-collapse .navbar-nav .nav-item .dropdown-item {
+        font-size: 1.8rem; }
       .header .container .bg-dark .navbar-collapse form .btn-outline-success {
         color: #ffffff;
         border-color: #ffffff; }
@@ -92,12 +94,13 @@ ol, ul {
           letter-spacing: 0.2rem; }
       .slide-banner .carousel .carousel-inner .carousel-item .text-2 {
         position: absolute;
-        width: 30rem;
-        top: 17%;
+        width: 100rem;
+        top: 22%;
         left: 20%;
-        display: block; }
+        display: block;
+        text-align: center; }
         .slide-banner .carousel .carousel-inner .carousel-item .text-2 h2 {
-          font-size: 6rem;
+          font-size: 5.5rem;
           font-family: "Open Sans", sans-serif;
           font-weight: 400;
           color: white;
@@ -151,11 +154,11 @@ ol, ul {
       color: white; }
 
 .button-fom {
-  margin-top: 4rem;
   padding: 1rem 3rem;
   border-radius: 0.7rem;
-  text-align: center;
-  font-size: 2rem; }
+  font-size: 2rem;
+  width: 20%;
+  margin: 5rem auto; }
 
 /* END CSS FOR SLIDE */
 .features {
@@ -182,10 +185,10 @@ ol, ul {
       margin: auto;
       margin-top: 4rem;
       margin-bottom: 4rem; }
-  .features .lower .features-box.col-md-3 {
+  .features .lower .features-box.col-md-4 {
     padding: 2rem 0px;
     margin-bottom: 2.2rem; }
-    .features .lower .features-box.col-md-3 .icon-box {
+    .features .lower .features-box.col-md-4 .icon-box {
       width: 10rem;
       height: 10rem;
       line-height: 10.5rem;
@@ -194,7 +197,7 @@ ol, ul {
       position: relative;
       margin-bottom: 3.5rem;
       box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.07); }
-    .features .lower .features-box.col-md-3 h4 {
+    .features .lower .features-box.col-md-4 h4 {
       color: #003c69;
       font-size: 2.2rem;
       font-family: "Open Sans", sans-serif;
@@ -202,23 +205,23 @@ ol, ul {
       line-height: 2.2rem;
       margin-bottom: 1.5rem;
       letter-spacing: 0.1rem; }
-    .features .lower .features-box.col-md-3 p {
+    .features .lower .features-box.col-md-4 p {
       font-size: 1.6rem;
       line-height: 2.7rem;
       color: #666;
       max-width: 20rem;
       margin: 0 auto;
       letter-spacing: 0.1rem; }
-    .features .lower .features-box.col-md-3:hover {
+    .features .lower .features-box.col-md-4:hover {
       background: #01286E;
       border-radius: 0.8rem;
       transition: 0.6s;
       transform: translateY(-2rem); }
-      .features .lower .features-box.col-md-3:hover .icon-box {
+      .features .lower .features-box.col-md-4:hover .icon-box {
         background: white; }
-      .features .lower .features-box.col-md-3:hover h4 {
+      .features .lower .features-box.col-md-4:hover h4 {
         color: white; }
-      .features .lower .features-box.col-md-3:hover p {
+      .features .lower .features-box.col-md-4:hover p {
         color: white; }
 
 .portfolio .upper {
@@ -229,35 +232,34 @@ ol, ul {
   line-height: 5.2rem;
   margin-top: 6rem;
   margin-bottom: 6rem; }
-.portfolio .lower {
-  margin-bottom: 6rem; }
-  .portfolio .lower .row .col-md-4 .portfolio-box {
-    position: relative;
-    display: block;
-    height: 100%; }
-    .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      bottom: 0;
-      text-align: center;
-      opacity: 0;
-      color: #fff;
-      background: #01286E;
-      transition: opacity .25s ease; }
-      .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption .project-category {
-        font-size: 2.2rem;
-        font-weight: 700;
-        text-transform: uppercase; }
-      .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption .project-name {
-        font-size: 2.2rem;
-        font-weight: 400; }
-    .portfolio .lower .row .col-md-4 .portfolio-box:hover .portfolio-box-caption {
-      opacity: 1; }
+.portfolio .lower .row .col-md-4 .portfolio-box {
+  position: relative;
+  display: block;
+  height: 26rem;
+  margin: 0 2rem 5rem 0; }
+  .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: #01286E;
+    transition: opacity .25s ease; }
+    .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption .project-category {
+      font-size: 2.2rem;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption .project-name {
+      font-size: 2.2rem;
+      font-weight: 400; }
+  .portfolio .lower .row .col-md-4 .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1; }
 
 .solution .container h1 {
   text-align: center;
@@ -421,6 +423,47 @@ footer {
 .join-us-banner {
   background: url("../../assets/img/join-us.jpg") no-repeat fixed !important;
   background-size: cover !important; }
+
+.about-us-content .aboutus h4 {
+  color: #01286E;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 5rem; }
+.about-us-content .aboutus p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  max-width: 114rem;
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+.about-us-content .vision h4 {
+  color: #01286E;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 5rem; }
+.about-us-content .vision p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  max-width: 114rem;
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+.about-us-content .mission h4 {
+  color: #01286E;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 5rem; }
 
 @media (max-width: 576px) {
   .logo {

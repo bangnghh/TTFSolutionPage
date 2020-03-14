@@ -82,6 +82,9 @@ ol, ul {
             img {
               height: 1.6rem;
             }
+            .dropdown-item{
+              font-size: 1.8rem;
+            }
           }
 
         }
@@ -162,13 +165,14 @@ ol, ul {
 
         .text-2 {
           position: absolute;
-          width: 30rem;
-          top: 17%;
+          width: 100rem;
+          top: 22%;
           left: 20%;
           display: block;
+          text-align: center;
 
           h2 {
-            font-size: 6rem;
+            font-size: 5.5rem;
             font-family: $sans;
             font-weight: 400;
             color: white;
@@ -259,11 +263,11 @@ ol, ul {
 }
 
 .button-fom {
-  margin-top: 4rem;
   padding: 1rem 3rem;
   border-radius: 0.7rem;
-  text-align: center;
   font-size: 2rem;
+  width: 20%;
+  margin: 5rem auto;
 }
 
 /* END CSS FOR SLIDE */
@@ -304,7 +308,7 @@ ol, ul {
 
   .lower {
 
-    .features-box.col-md-3 {
+    .features-box.col-md-4 {
       padding: 2rem 0px;
       margin-bottom: 2.2rem;
 
@@ -378,14 +382,14 @@ ol, ul {
   }
 
   .lower {
-    margin-bottom: 6rem;
 
     .row {
       .col-md-4 {
         .portfolio-box {
           position: relative;
           display: block;
-          height: 100%;
+          height: 26rem;
+          margin: 0 2rem 5rem 0;
 
           .portfolio-box-caption {
             display: flex;
@@ -691,6 +695,66 @@ footer {
 .join-us-banner{
   background: url("../../assets/img/join-us.jpg") no-repeat fixed !important;
   background-size: cover!important;
+}
+
+// About-us Page
+.about-us-content{
+  .aboutus{
+    h4{
+      color: #01286E;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 4.6rem;
+      line-height: 5rem;
+    }
+    p{
+      color: #333;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      max-width: 114rem;
+      display: block;
+      margin: auto;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+  .vision{
+    h4{
+      color: #01286E;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 4.6rem;
+      line-height: 5rem;
+    }
+    p{
+      color: #333;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      max-width: 114rem;
+      display: block;
+      margin: auto;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+  .mission{
+    h4{
+      color: #01286E;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 4.6rem;
+      line-height: 5rem;
+    }
+    ul{
+      li{
+
+      }
+    }
+  }
 }
 // Media
 @media (max-width: 576px){
