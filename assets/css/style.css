@@ -22,6 +22,9 @@ ol, ul {
   margin-left: -4rem;
   list-style: none; }
 
+a {
+  text-decoration: none !important; }
+
 .header {
   width: 100%;
   background: white;
@@ -56,7 +59,7 @@ ol, ul {
   width: 100%;
   background: #f7f7f7; }
   .slide-banner .carousel {
-    height: 77rem; }
+    height: 60rem; }
     .slide-banner .carousel .carousel-indicators {
       bottom: -6rem; }
       .slide-banner .carousel .carousel-indicators li {
@@ -72,31 +75,12 @@ ol, ul {
         object-fit: cover;
         position: relative;
         background-size: cover; }
-      .slide-banner .carousel .carousel-inner .carousel-item .text-1 {
-        position: absolute;
-        top: 25%;
-        left: 0;
-        right: 0;
-        display: block; }
-        .slide-banner .carousel .carousel-inner .carousel-item .text-1 h2 {
-          font-size: 6.3rem;
-          font-family: "Open Sans", sans-serif;
-          font-weight: 600;
-          color: #f7f7f7;
-          margin-bottom: 5rem; }
-        .slide-banner .carousel .carousel-inner .carousel-item .text-1 p {
-          font-size: 2.1rem;
-          font-family: "Open Sans", sans-serif;
-          font-weight: 400;
-          color: #f7f7f7;
-          max-width: 114rem;
-          margin: 0 auto;
-          letter-spacing: 0.2rem; }
       .slide-banner .carousel .carousel-inner .carousel-item .text-2 {
         position: absolute;
         width: 100rem;
-        top: 22%;
-        left: 20%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         display: block;
         text-align: center; }
         .slide-banner .carousel .carousel-inner .carousel-item .text-2 h2 {
@@ -112,32 +96,10 @@ ol, ul {
           font-weight: 300;
           color: white;
           letter-spacing: 2px; }
-      .slide-banner .carousel .carousel-inner .carousel-item .text-3 {
-        position: absolute;
-        width: 30rem;
-        top: 23%;
-        right: 18%;
-        display: block; }
-        .slide-banner .carousel .carousel-inner .carousel-item .text-3 h2 {
-          font-size: 7rem;
-          font-family: "Open Sans", sans-serif;
-          font-weight: 400;
-          color: white;
-          margin-bottom: 2rem;
-          letter-spacing: 2px;
-          margin-left: -4rem; }
-        .slide-banner .carousel .carousel-inner .carousel-item .text-3 p {
-          font-size: 2.3rem;
-          font-family: "Open Sans", sans-serif;
-          font-weight: 300;
-          color: white;
-          letter-spacing: 4px;
-          text-align: right;
-          display: block; }
       .slide-banner .carousel .carousel-inner .carousel-item video {
         display: block;
         width: 100%;
-        height: 100%;
+        height: 60rem;
         object-fit: cover;
         overflow: hidden; }
       .slide-banner .carousel .carousel-inner .carousel-item .video-retail {
@@ -159,6 +121,8 @@ ol, ul {
   font-size: 2rem;
   width: 20%;
   margin: 5rem auto; }
+  .button-fom a {
+    color: #333; }
 
 /* END CSS FOR SLIDE */
 .features {
@@ -169,11 +133,21 @@ ol, ul {
     margin-top: 6rem;
     margin-bottom: 6rem; }
     .features .upper h1 {
+      position: relative;
       color: #01286E;
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 4.6rem;
       line-height: 5rem; }
+      .features .upper h1:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        width: 100px;
+        height: 4px;
+        margin-left: -50px;
+        background-color: #01286E; }
     .features .upper p {
       color: #333;
       font-family: 'Raleway', sans-serif;
@@ -183,7 +157,7 @@ ol, ul {
       max-width: 114rem;
       display: block;
       margin: auto;
-      margin-top: 4rem;
+      margin-top: 6rem;
       margin-bottom: 4rem; }
   .features .lower .features-box.col-md-4 {
     padding: 2rem 0px;
@@ -225,41 +199,55 @@ ol, ul {
         color: white; }
 
 .portfolio .upper {
+  position: relative;
   color: #01286E;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 4.6rem;
   line-height: 5.2rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
   margin-bottom: 6rem; }
-.portfolio .lower .row .col-md-4 .portfolio-box {
-  position: relative;
-  display: block;
-  height: 26rem;
-  margin: 0 2rem 5rem 0; }
-  .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
+  .portfolio .upper:after {
+    content: "";
     position: absolute;
-    bottom: 0;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    background: #01286E;
-    transition: opacity .25s ease; }
-    .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption .project-category {
-      font-size: 2.2rem;
-      font-weight: 700;
-      text-transform: uppercase; }
-    .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption .project-name {
-      font-size: 2.2rem;
-      font-weight: 400; }
-  .portfolio .lower .row .col-md-4 .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1; }
+    left: 50%;
+    bottom: -30px;
+    width: 100px;
+    height: 4px;
+    margin-left: -50px;
+    background-color: #01286E; }
+.portfolio .lower .row .col-md-4 {
+  padding: 4rem 6rem 10rem 6rem;
+  box-sizing: border-box; }
+  .portfolio .lower .row .col-md-4 .portfolio-box {
+    position: relative;
+    display: block;
+    height: 5rem;
+    margin: 0 0rem 5rem 0; }
+    .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption {
+      display: flex;
+      border-radius: 0.7rem;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      opacity: 0;
+      color: #fff;
+      background: #01286E;
+      transition: opacity .25s ease; }
+      .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption .project-category {
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .portfolio .lower .row .col-md-4 .portfolio-box .portfolio-box-caption .project-name {
+        font-size: 2.2rem;
+        font-weight: 400; }
+    .portfolio .lower .row .col-md-4 .portfolio-box:hover .portfolio-box-caption {
+      opacity: 0; }
 
 .solution .container h1 {
   text-align: center;
@@ -282,11 +270,21 @@ ol, ul {
   background: #f7f7f7;
   padding: 8rem 0rem; }
   .about-us .container .upper h2 {
+    position: relative;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 4.6rem;
     line-height: 5.2rem;
     color: #01286E; }
+    .about-us .container .upper h2:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -30px;
+      width: 100px;
+      height: 4px;
+      margin-left: -50px;
+      background-color: #01286E; }
   .about-us .container .upper p {
     color: #333;
     font-family: 'Raleway', sans-serif;
@@ -298,31 +296,42 @@ ol, ul {
     margin: auto;
     margin-top: 4rem;
     margin-bottom: 4rem; }
-  .about-us .container .lower .row .team-content .member-image {
-    width: 19rem;
-    height: 19rem;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    border-radius: 9rem;
-    box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.07); }
-  .about-us .container .lower .row .team-content h5 {
-    text-align: center;
-    font-size: 2.1rem;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    line-height: 2;
-    margin: 0;
-    margin-bottom: 1rem; }
-  .about-us .container .lower .row .team-content p {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 1.5rem;
-    font-style: italic;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    line-height: 1; }
+  .about-us .container .lower {
+    margin-top: 5rem; }
+    .about-us .container .lower .row .team-content .member-image {
+      width: 19rem;
+      height: 19rem;
+      overflow: hidden;
+      margin: auto;
+      margin-top: 6rem;
+      margin-bottom: 2rem;
+      border-radius: 9rem;
+      box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.07); }
+    .about-us .container .lower .row .team-content h5 {
+      text-align: center;
+      font-size: 2.4rem;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      margin: 2rem auto;
+      margin-bottom: 1rem;
+      color: #01286E;
+      max-width: 33rem; }
+    .about-us .container .lower .row .team-content ul li {
+      text-align: justify;
+      font-size: 1.6rem;
+      font-weight: 300;
+      margin: 1rem auto;
+      max-width: 20rem;
+      letter-spacing: 0.1rem;
+      word-break: break-all; }
+    .about-us .container .lower .row .team-content p {
+      text-align: justify;
+      font-size: 1.6rem;
+      font-weight: 300;
+      margin: 1rem auto;
+      max-width: 20rem;
+      letter-spacing: 0.1rem;
+      word-break: break-all; }
 
 footer {
   background: #373737;
@@ -424,46 +433,98 @@ footer {
   background: url("../../assets/img/join-us.jpg") no-repeat fixed !important;
   background-size: cover !important; }
 
-.about-us-content .aboutus h4 {
-  color: #01286E;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 4.6rem;
-  line-height: 5rem; }
-.about-us-content .aboutus p {
-  color: #333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-size: 2.2rem;
-  line-height: 3rem;
-  max-width: 114rem;
-  display: block;
-  margin: auto;
-  margin-top: 4rem;
-  margin-bottom: 4rem; }
-.about-us-content .vision h4 {
-  color: #01286E;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 4.6rem;
-  line-height: 5rem; }
-.about-us-content .vision p {
-  color: #333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-size: 2.2rem;
-  line-height: 3rem;
-  max-width: 114rem;
-  display: block;
-  margin: auto;
-  margin-top: 4rem;
-  margin-bottom: 4rem; }
-.about-us-content .mission h4 {
-  color: #01286E;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 4.6rem;
-  line-height: 5rem; }
+.about-us-content .aboutus {
+  margin: 6rem auto; }
+  .about-us-content .aboutus h4 {
+    position: relative;
+    color: #01286E;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 5rem; }
+    .about-us-content .aboutus h4:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -30px;
+      width: 100px;
+      height: 4px;
+      margin-left: -50px;
+      background-color: #01286E; }
+  .about-us-content .aboutus p {
+    text-align: justify;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    max-width: 114rem;
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem; }
+.about-us-content .vision {
+  margin-bottom: 6rem; }
+  .about-us-content .vision h4 {
+    position: relative;
+    color: #01286E;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 5rem; }
+    .about-us-content .vision h4:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -30px;
+      width: 100px;
+      height: 4px;
+      margin-left: -50px;
+      background-color: #01286E; }
+  .about-us-content .vision p {
+    text-align: justify;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    max-width: 114rem;
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem; }
+.about-us-content .mission {
+  margin-bottom: 6rem; }
+  .about-us-content .mission h4 {
+    position: relative;
+    color: #01286E;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 5rem; }
+    .about-us-content .mission h4:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -30px;
+      width: 100px;
+      height: 4px;
+      margin-left: -50px;
+      background-color: #01286E; }
+  .about-us-content .mission ul li {
+    background: url("../img/mini-logo.png") no-repeat left top;
+    text-align: justify;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    max-width: 114rem;
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    padding-left: 5rem; }
 
 @media (max-width: 576px) {
   .logo {
@@ -491,76 +552,31 @@ footer {
           background-size: cover;
           height: 100% !important;
           overflow: hidden; }
-        .carousel.slide .carousel-inner .carousel-item .text-1 {
-          position: absolute;
-          top: 12% !important;
-          left: 0;
-          right: 0;
-          display: block; }
-          .carousel.slide .carousel-inner .carousel-item .text-1 h2 {
-            font-size: 3.6rem !important;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 600;
-            color: #f7f7f7;
-            margin-bottom: 2rem !important;
-            margin: 0 1rem !important; }
-          .carousel.slide .carousel-inner .carousel-item .text-1 p {
-            font-size: 1.4rem !important;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            color: #f7f7f7;
-            max-width: 30rem !important;
-            margin: 0 auto !important;
-            letter-spacing: 0.2rem !important; }
         .carousel.slide .carousel-inner .carousel-item .text-2 {
           position: absolute;
-          top: 20% !important;
-          left: 0 !important;
-          right: 0;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
           display: block;
           width: 100% !important; }
           .carousel.slide .carousel-inner .carousel-item .text-2 h2 {
-            font-size: 3.6rem !important;
+            font-size: 3rem !important;
             font-family: "Open Sans", sans-serif;
             font-weight: 600;
             color: #f7f7f7;
             margin-bottom: 2rem !important;
             margin: 0 3rem !important;
-            text-align: left; }
+            text-align: center; }
           .carousel.slide .carousel-inner .carousel-item .text-2 p {
             font-size: 1.4rem !important;
             font-family: "Open Sans", sans-serif;
             font-weight: 400;
             color: #f7f7f7;
-            max-width: 30rem !important;
+            max-width: 34rem !important;
             margin-left: 3rem !important;
             letter-spacing: 0.2rem !important;
-            text-align: left;
+            text-align: center;
             margin-top: 2rem !important; }
-        .carousel.slide .carousel-inner .carousel-item .text-3 {
-          position: absolute;
-          top: 20% !important;
-          left: 0;
-          right: 0;
-          display: block;
-          width: 100% !important; }
-          .carousel.slide .carousel-inner .carousel-item .text-3 h2 {
-            font-size: 3.6rem !important;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 600;
-            color: #f7f7f7;
-            margin-bottom: 2rem !important;
-            margin: 0 1rem !important;
-            text-align: center; }
-          .carousel.slide .carousel-inner .carousel-item .text-3 p {
-            font-size: 1.4rem !important;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            color: #f7f7f7;
-            max-width: 30rem !important;
-            margin: 2rem auto !important;
-            letter-spacing: 0.2rem !important;
-            text-align: center !important; }
         .carousel.slide .carousel-inner .carousel-item video {
           display: block;
           width: auto;
@@ -585,7 +601,7 @@ footer {
         color: white; }
 
   .button-fom {
-    margin-top: 3rem !important;
+    margin-top: 4rem !important;
     padding: 1rem 3rem !important;
     border-radius: 0.7rem;
     text-align: center;
@@ -597,8 +613,7 @@ footer {
     margin: auto auto; }
 
   .btn-warning {
-    width: 50%;
-    margin-left: 3rem; }
+    width: 50%; }
 
   .contact-banner {
     position: relative;
@@ -703,5 +718,79 @@ footer {
 
 .flag-height {
   height: 1.5rem !important; }
+
+.temenos-banner {
+  background: url("../../assets/img/temenos-banner.jpg") no-repeat center;
+  height: 50rem; }
+
+.temenos .about-temenos {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6rem;
+  max-width: 99.6rem; }
+  .temenos .about-temenos h3 {
+    position: relative;
+    font-size: 5.5rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #01286E;
+    margin-bottom: 5rem; }
+    .temenos .about-temenos h3:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -30px;
+      width: 100px;
+      height: 4px;
+      margin-left: -50px;
+      background-color: #01286E; }
+  .temenos .about-temenos h4 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #01286E;
+    max-width: 99.6rem;
+    margin: 8rem auto; }
+  .temenos .about-temenos p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #000000cc;
+    max-width: 80rem;
+    margin: 2rem auto; }
+.temenos .number-about-temenos {
+  margin: 8rem auto; }
+  .temenos .number-about-temenos .col-md-3 h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #01286E; }
+  .temenos .number-about-temenos .col-md-3 p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    max-width: 16rem;
+    margin: 2rem auto; }
+.temenos .detail-temenos h4 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #01286E;
+  margin: 3rem auto;
+  position: relative; }
+  .temenos .detail-temenos h4:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    width: 100px;
+    height: 4px;
+    margin-left: -50px;
+    background-color: #01286E; }
+.temenos .detail-temenos img {
+  width: 100%;
+  margin: 3rem auto;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */
