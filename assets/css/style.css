@@ -317,21 +317,19 @@ a {
       color: #01286E;
       max-width: 33rem; }
     .about-us .container .lower .row .team-content ul li {
-      text-align: justify;
+      text-align: center;
       font-size: 1.6rem;
       font-weight: 300;
       margin: 1rem auto;
-      max-width: 20rem;
-      letter-spacing: 0.1rem;
-      word-break: break-all; }
+      max-width: 27rem;
+      letter-spacing: 0.1rem; }
     .about-us .container .lower .row .team-content p {
-      text-align: justify;
+      text-align: center;
       font-size: 1.6rem;
       font-weight: 300;
       margin: 1rem auto;
-      max-width: 20rem;
-      letter-spacing: 0.1rem;
-      word-break: break-all; }
+      max-width: 27rem;
+      letter-spacing: 0.1rem; }
 
 footer {
   background: #373737;
