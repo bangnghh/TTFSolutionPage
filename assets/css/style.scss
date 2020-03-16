@@ -1076,6 +1076,56 @@ footer {
     background: url("../../assets/img/temenos-banner-mobile.png") no-repeat center !important;
     height: 50rem;
   }
+  .detail-temenos{
+
+
+    h4{
+      font-size: 5.5rem;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+      color: #01286E;
+      margin: 3rem auto;
+      position: relative;
+      &:after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        width: 100px;
+        height: 4px;
+        margin-left: -50px;
+        background-color: $main-blue;
+      }
+    }
+    img{
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 6rem;
+      height: auto;
+    }
+    .custom-container {
+      max-width: 99.6rem;
+      margin: 2rem auto;
+      ul {
+        li {
+          background: url("../img/temenos-mini-logo.png") no-repeat left top;
+          text-align: left;
+          color: #333;
+          font-family: 'Raleway', sans-serif;
+          font-weight: 600;
+          font-size: 2.1rem;
+          line-height: 3rem;
+          max-width: 114rem;
+          display: block;
+          margin: auto;
+          margin-top: 1rem;
+          margin-bottom: 4rem;
+          padding-left: 5rem;
+        }
+      }
+    }
+
+  }
 }
 @media (min-width: 1300px) {
   .container {
