@@ -696,7 +696,11 @@ footer {
             color: white;
             font-size: 3rem;
             line-height: 5rem;
-            margin-right: 2rem; } }
+            margin-right: 2rem; }
+
+  .temenos-banner {
+    background: url("../../assets/img/temenos-banner-mobile.png") no-repeat center !important;
+    height: 50rem; } }
 @media (min-width: 1300px) {
   .container {
     max-width: 1140px; } }
@@ -721,7 +725,7 @@ footer {
   height: 1.5rem !important; }
 
 .temenos-banner {
-  background: url("../../assets/img/temenos-banner.jpg") no-repeat center;
+  background: url("../../assets/img/temenos-banner.png") no-repeat center;
   height: 50rem; }
 
 .temenos .about-temenos {

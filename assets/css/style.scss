@@ -1069,6 +1069,13 @@ footer {
       }
     }
   }
+
+  //media-temenos
+
+  .temenos-banner{
+    background: url("../../assets/img/temenos-banner-mobile.png") no-repeat center !important;
+    height: 50rem;
+  }
 }
 @media (min-width: 1300px) {
   .container {
@@ -1107,7 +1114,7 @@ footer {
 //Custom for content
 // Temenos
 .temenos-banner{
-    background: url("../../assets/img/temenos-banner.jpg") no-repeat center;
+    background: url("../../assets/img/temenos-banner.png") no-repeat center;
     height: 50rem;
 }
 .temenos{
