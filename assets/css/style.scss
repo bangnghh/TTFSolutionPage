@@ -44,8 +44,9 @@ ol, ul {
   margin-left: -4rem;
   list-style: none;
 }
-a{
-  text-decoration: none!important;
+
+a {
+  text-decoration: none !important;
 }
 
 // CSS FOR HEADER
@@ -65,7 +66,8 @@ a{
         color: $main-red;
         padding: 0px 2rem;
         border-radius: 0.4rem;
-        img{
+
+        img {
           width: 20rem;
           height: 5rem;
         }
@@ -85,7 +87,8 @@ a{
             img {
               height: 1.6rem;
             }
-            .dropdown-item{
+
+            .dropdown-item {
               font-size: 1.8rem;
             }
           }
@@ -140,7 +143,6 @@ a{
           background-size: cover;
         }
 
-        
 
         .text-2 {
           position: absolute;
@@ -220,7 +222,8 @@ a{
   font-size: 2rem;
   width: 20%;
   margin: 5rem auto;
-  a{
+
+  a {
     color: $main-black;
   }
 }
@@ -245,17 +248,18 @@ a{
       font-weight: 700;
       font-size: 4.6rem;
       line-height: 5rem;
-      &:after{
-            content: "";
-            position: absolute;
-            left: 50%;
-            bottom: -30px;
-            width: 100px;
-            height: 4px;
-            margin-left: -50px;
-            background-color: $main-blue;
-        }
-      
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        width: 100px;
+        height: 4px;
+        margin-left: -50px;
+        background-color: $main-blue;
+      }
+
     }
 
     p {
@@ -287,6 +291,7 @@ a{
         position: relative;
         margin-bottom: 3.5rem;
         box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, .07);
+
         img {
           width: 60%;
           height: 60%;
@@ -350,16 +355,17 @@ a{
     line-height: 5.2rem;
     margin-top: 8rem;
     margin-bottom: 6rem;
-    &:after{
-        content: "";
-        position: absolute;
-        left: 50%;
-        bottom: -30px;
-        width: 100px;
-        height: 4px;
-        margin-left: -50px;
-        background-color: $main-blue;
-      }
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -30px;
+      width: 100px;
+      height: 4px;
+      margin-left: -50px;
+      background-color: $main-blue;
+    }
   }
 
   .lower {
@@ -368,11 +374,12 @@ a{
       .col-md-4 {
         padding: 4rem 6rem 10rem 6rem;
         box-sizing: border-box;
+
         .portfolio-box {
-              position: relative;
-              display: block;
-              height: 5rem;
-              margin: 0 0rem 5rem 0;
+          position: relative;
+          display: block;
+          height: 5rem;
+          margin: 0 0rem 5rem 0;
 
           .portfolio-box-caption {
             display: flex;
@@ -472,15 +479,16 @@ a{
         font-size: 4.6rem;
         line-height: 5.2rem;
         color: $main-blue;
-        &:after{
-            content: "";
-            position: absolute;
-            left: 50%;
-            bottom: -30px;
-            width: 100px;
-            height: 4px;
-            margin-left: -50px;
-            background-color: $main-blue;
+
+        &:after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: -30px;
+          width: 100px;
+          height: 4px;
+          margin-left: -50px;
+          background-color: $main-blue;
         }
       }
 
@@ -500,6 +508,7 @@ a{
 
     .lower {
       margin-top: 5rem;
+
       .row {
         .team-content {
           .member-image {
@@ -524,8 +533,8 @@ a{
             max-width: 33rem;
           }
 
-          ul{
-            li{
+          ul {
+            li {
               text-align: center;
               font-size: 1.6rem;
               font-weight: 300;
@@ -537,11 +546,11 @@ a{
 
           p {
             text-align: center;
-              font-size: 1.6rem;
-              font-weight: 300;
-              margin: 1rem auto;
-              max-width: 27rem;
-              letter-spacing: 0.1rem;
+            font-size: 1.6rem;
+            font-weight: 300;
+            margin: 1rem auto;
+            max-width: 27rem;
+            letter-spacing: 0.1rem;
           }
         }
       }
@@ -605,10 +614,10 @@ footer {
         }
       }
 
-      .col-md-4{
-        ul{
-          li{
-            margin-bottom: 1rem!important;
+      .col-md-4 {
+        ul {
+          li {
+            margin-bottom: 1rem !important;
           }
         }
       }
@@ -634,19 +643,21 @@ footer {
 // END FOOTER
 
 //ContactPage
-.contact-banner{
+.contact-banner {
   position: relative;
   width: 100%;
   height: 55rem;
   background: url("../../assets/img/contact-banner.jpg") no-repeat fixed;
-  .contact-banner-graylayer{
+
+  .contact-banner-graylayer {
     width: 100%;
     height: 100%;
     background: #000000;
     opacity: 0.5;
   }
-  .container{
-    h4{
+
+  .container {
+    h4 {
       font-size: 6.3rem;
       font-weight: 600;
       font-family: "Open Sans", sans-serif;
@@ -659,11 +670,13 @@ footer {
     }
   }
 }
-.contact-map-frame{
 
-  .col-md-6{
+.contact-map-frame {
+
+  .col-md-6 {
     padding: 2rem 2rem;
-    h4{
+
+    h4 {
       font-size: 3.2rem;
       font-weight: 600;
       font-family: 'Raleway', sans-serif;
@@ -672,7 +685,8 @@ footer {
       margin-bottom: 2rem;
       display: block;
     }
-    p{
+
+    p {
       font-size: 1.8rem;
       font-weight: 600;
       font-family: "Open Sans", sans-serif;
@@ -680,7 +694,8 @@ footer {
       margin-left: 5rem;
       margin-bottom: 1rem;
     }
-    span{
+
+    span {
       font-size: 1.6rem;
       font-weight: 400;
       font-family: "Open Sans", sans-serif;
@@ -689,7 +704,8 @@ footer {
       display: inline-block;
       margin-bottom: 3rem;
     }
-    iframe{
+
+    iframe {
       width: 100%;
       height: 40rem;
       margin-left: 5rem;
@@ -699,105 +715,116 @@ footer {
 
 // Join-us Page
 
-.join-us-banner{
+.join-us-banner {
   background: url("../../assets/img/join-us.jpg") no-repeat fixed !important;
-  background-size: cover!important;
+  background-size: cover !important;
 }
 
 // About-us Page
-.about-us-content{
-  .aboutus{
+.about-us-content {
+  .aboutus {
     margin: 6rem auto;
-    h4{
+
+    h4 {
       position: relative;
       color: #01286E;
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 4.6rem;
       line-height: 5rem;
-      &:after{
-            content: "";
-            position: absolute;
-            left: 50%;
-            bottom: -30px;
-            width: 100px;
-            height: 4px;
-            margin-left: -50px;
-            background-color: $main-blue;
-        }
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        width: 100px;
+        height: 4px;
+        margin-left: -50px;
+        background-color: $main-blue;
+      }
     }
-    p{
+
+    p {
       text-align: justify;
-    color: #333;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 2.2rem;
-    line-height: 3rem;
-    max-width: 114rem;
-    display: block;
-    margin: auto;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
+      color: #333;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      max-width: 114rem;
+      display: block;
+      margin: auto;
+      margin-top: 6rem;
+      margin-bottom: 4rem;
     }
   }
-  .vision{
+
+  .vision {
     margin-bottom: 6rem;
-    h4{
+
+    h4 {
       position: relative;
       color: #01286E;
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 4.6rem;
       line-height: 5rem;
-      &:after{
-            content: "";
-            position: absolute;
-            left: 50%;
-            bottom: -30px;
-            width: 100px;
-            height: 4px;
-            margin-left: -50px;
-            background-color: $main-blue;
-        }
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        width: 100px;
+        height: 4px;
+        margin-left: -50px;
+        background-color: $main-blue;
+      }
     }
-    p{
+
+    p {
       text-align: justify;
-    color: #333;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 2.2rem;
-    line-height: 3rem;
-    max-width: 114rem;
-    display: block;
-    margin: auto;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
+      color: #333;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      max-width: 114rem;
+      display: block;
+      margin: auto;
+      margin-top: 6rem;
+      margin-bottom: 4rem;
     }
   }
-  .mission{
+
+  .mission {
     margin-bottom: 6rem;
-    h4{
+
+    h4 {
       position: relative;
       color: #01286E;
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 4.6rem;
       line-height: 5rem;
-      &:after{
-            content: "";
-            position: absolute;
-            left: 50%;
-            bottom: -30px;
-            width: 100px;
-            height: 4px;
-            margin-left: -50px;
-            background-color: $main-blue;
-        }
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        width: 100px;
+        height: 4px;
+        margin-left: -50px;
+        background-color: $main-blue;
+      }
     }
-    ul{
-      
-      
-      li{
+
+    ul {
+
+
+      li {
         background: url("../img/mini-logo.png") no-repeat left top;
         text-align: justify;
         color: #333;
@@ -815,22 +842,23 @@ footer {
     }
   }
 }
+
 // Media
-@media (max-width: 576px){
-  .logo{
-    width: 16rem!important;
-    height: 4rem!important;
+@media (max-width: 576px) {
+  .logo {
+    width: 16rem !important;
+    height: 4rem !important;
   }
   .carousel.slide {
 
-    height: 45rem!important;
+    height: 45rem !important;
 
     .carousel-indicators {
-      bottom: -5rem!important;
+      bottom: -5rem !important;
 
       li {
-        width: 3rem!important;
-        height: 0.3rem!important;
+        width: 3rem !important;
+        height: 0.3rem !important;
         background-color: $main-blue;
       }
     }
@@ -841,13 +869,14 @@ footer {
 
       .carousel-item {
         height: 100%;
+
         img {
-          width: auto!important;
+          width: auto !important;
           filter: brightness(30%);
           object-fit: cover;
           position: relative;
           background-size: cover;
-          height: 100%!important;
+          height: 100% !important;
           overflow: hidden;
         }
 
@@ -856,9 +885,9 @@ footer {
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          
+
           display: block;
-          width: 100%!important;
+          width: 100% !important;
 
           h2 {
             font-size: 3rem !important;
@@ -898,7 +927,7 @@ footer {
         }
 
         .video-insurance {
-          object-position: -25rem!important;
+          object-position: -25rem !important;
         }
       }
     }
@@ -906,6 +935,7 @@ footer {
 
     .carousel-control-prev {
       opacity: 0;
+
       span {
         .fa-chevron-circle-left {
           font-size: 4.6rem;
@@ -916,6 +946,7 @@ footer {
 
     .carousel-control-next {
       opacity: 0;
+
       span {
         .fa-chevron-circle-right {
           font-size: 4.6rem;
@@ -931,29 +962,31 @@ footer {
     text-align: center;
     font-size: 1.4rem !important;
   }
-  .btn-info{
-    margin-top: 4rem!important;
-    width: 50%!important;
+  .btn-info {
+    margin-top: 4rem !important;
+    width: 50% !important;
     margin: auto auto;
   }
-  .btn-warning{
+  .btn-warning {
     width: 50%;
   }
 
   // ContactPage
-  .contact-banner{
+  .contact-banner {
     position: relative;
     width: 100%;
     height: 45rem;
     background: url("../../assets/img/contact-banner.jpg") no-repeat fixed;
-    .contact-banner-graylayer{
+
+    .contact-banner-graylayer {
       width: 100%;
       height: 100%;
       background: #000000;
       opacity: 0.5;
     }
-    .container{
-      h4{
+
+    .container {
+      h4 {
         font-size: 3.6rem;
         font-weight: 600;
         font-family: "Open Sans", sans-serif;
@@ -967,24 +1000,27 @@ footer {
 
     }
   }
-  .contact-map-frame{
+  .contact-map-frame {
 
-    .col-md-6{
+    .col-md-6 {
       padding: 2rem 2rem;
 
-      h4{
-        margin-left: 0!important;
+      h4 {
+        margin-left: 0 !important;
       }
-      p{
-        margin-left: 0!important;
+
+      p {
+        margin-left: 0 !important;
       }
-      span{
-        margin-left: 0!important;
+
+      span {
+        margin-left: 0 !important;
       }
-      iframe{
+
+      iframe {
         width: 100%;
         height: 40rem;
-        margin-left: 0!important;
+        margin-left: 0 !important;
       }
     }
   }
@@ -997,7 +1033,7 @@ footer {
       max-width: 114rem;
 
       .row {
-        .col-md-3,.col-md-4 {
+        .col-md-3, .col-md-4 {
           padding-top: 2rem;
           padding-bottom: 3rem;
 
@@ -1041,10 +1077,10 @@ footer {
           }
         }
 
-        .col-md-4{
-          ul{
-            li{
-              margin-bottom: 1rem!important;
+        .col-md-4 {
+          ul {
+            li {
+              margin-bottom: 1rem !important;
             }
           }
         }
@@ -1072,21 +1108,23 @@ footer {
 
   //media-temenos
 
-  .temenos-banner{
+  .temenos-banner {
     background: url("../../assets/img/temenos-banner-mobile.png") no-repeat center !important;
     height: 50rem;
+    background-size: cover;
   }
-  .detail-temenos{
+  .detail-temenos {
 
 
-    h4{
+    h4 {
       font-size: 5.5rem;
       font-weight: 600;
       font-family: "Open Sans", sans-serif;
       color: #01286E;
       margin: 3rem auto;
       position: relative;
-      &:after{
+
+      &:after {
         content: "";
         position: absolute;
         left: 50%;
@@ -1097,15 +1135,18 @@ footer {
         background-color: $main-blue;
       }
     }
-    img{
+
+    img {
       width: 100%;
       margin: 0 auto;
       margin-top: 6rem;
       height: auto;
     }
+
     .custom-container {
       max-width: 99.6rem;
       margin: 2rem auto;
+
       ul {
         li {
           background: url("../img/temenos-mini-logo.png") no-repeat left top;
@@ -1127,6 +1168,7 @@ footer {
 
   }
 }
+
 @media (min-width: 1300px) {
   .container {
     max-width: 1140px;
@@ -1163,121 +1205,134 @@ footer {
 
 //Custom for content
 // Temenos
-.temenos-banner{
-    background: url("../../assets/img/temenos-banner.png") no-repeat center;
-    height: 50rem;
+.temenos-banner {
+  background: url("../../assets/img/temenos-banner.png") no-repeat center;
+  height: 50rem;
+  background-size: cover;
 }
-.temenos{
-    .about-temenos{
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 6rem;
-        max-width: 99.6rem;
 
-        h3{
-            position: relative;
-            font-size: 5.5rem;
-            font-weight: 600;
-            font-family: "Open Sans", sans-serif;
-            color: #01286E;
-            margin-bottom: 5rem;
-            &:after{
-              content: "";
-              position: absolute;
-              left: 50%;
-              bottom: -30px;
-              width: 100px;
-              height: 4px;
-              margin-left: -50px;
-              background-color: $main-blue;
-        }
-        }
-        h4{
-            font-size: 2.4rem;
-            font-weight: 600;
-            font-family: "Open Sans", sans-serif;
-            color: $main-blue;
-            max-width: 99.6rem;
-            margin: 8rem auto;
-        }
-        p{
-            font-size: 1.6rem;
-            font-weight: 400;
-            font-family: "Open Sans", sans-serif;
-            color: #000000cc;
-            max-width: 80rem;
-            margin: 2rem auto;
-        }
+.temenos {
+  .about-temenos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6rem;
+    max-width: 99.6rem;
+
+    h3 {
+      position: relative;
+      font-size: 5.5rem;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+      color: #01286E;
+      margin-bottom: 5rem;
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        width: 100px;
+        height: 4px;
+        margin-left: -50px;
+        background-color: $main-blue;
+      }
     }
-    .number-about-temenos{
-        margin: 8rem auto;
-        .col-md-3{
-            h1{
-                        font-size: 6rem;
-                        font-weight: 700;
-                        font-family: "Open Sans", sans-serif;
-                        color: $main-blue;
-            }
-            p{
-                        font-size: 1.8rem;
-                        font-weight: 300;
-                        font-family: "Open Sans", sans-serif;
-                        color: black;
-                        max-width: 16rem;
-                        margin: 2rem auto;
-            }
-        }
+
+    h4 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+      color: $main-blue;
+      max-width: 99.6rem;
+      margin: 8rem auto;
     }
-    .detail-temenos{
 
+    p {
+      font-size: 1.6rem;
+      font-weight: 400;
+      font-family: "Open Sans", sans-serif;
+      color: #000000cc;
+      max-width: 80rem;
+      margin: 2rem auto;
+    }
+  }
 
-        h4{
-          font-size: 5.5rem;
-          font-weight: 600;
-          font-family: "Open Sans", sans-serif;
-          color: #01286E;
-          margin: 3rem auto;
-          position: relative;
-          &:after{
-            content: "";
-            position: absolute;
-            left: 50%;
-            bottom: -30px;
-            width: 100px;
-            height: 4px;
-            margin-left: -50px;
-            background-color: $main-blue;
-          }
-        }
-        img{
-          width: 100%;
-          margin: 0 auto;
-          margin-top: 6rem;
-          height: auto;
-        }
-      .custom-container {
-        max-width: 99.6rem;
-        margin: 2rem auto;
-        ul {
-          li {
-            background: url("../img/temenos-mini-logo.png") no-repeat left top;
-            text-align: left;
-            color: #333;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 600;
-            font-size: 2.1rem;
-            line-height: 3rem;
-            max-width: 114rem;
-            display: block;
-            margin: auto;
-            margin-top: 6rem;
-            margin-bottom: 4rem;
-            padding-left: 5rem;
-          }
-        }
+  .number-about-temenos {
+    margin: 8rem auto;
+
+    .col-md-3 {
+      h1 {
+        font-size: 6rem;
+        font-weight: 700;
+        font-family: "Open Sans", sans-serif;
+        color: $main-blue;
       }
 
+      p {
+        font-size: 1.8rem;
+        font-weight: 300;
+        font-family: "Open Sans", sans-serif;
+        color: black;
+        max-width: 16rem;
+        margin: 2rem auto;
+      }
     }
+  }
+
+  .detail-temenos {
+
+
+    h4 {
+      font-size: 5.5rem;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+      color: #01286E;
+      margin: 3rem auto;
+      position: relative;
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        width: 100px;
+        height: 4px;
+        margin-left: -50px;
+        background-color: $main-blue;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 6rem;
+      height: auto;
+    }
+
+    .custom-container {
+      max-width: 99.6rem;
+      margin: 2rem auto;
+
+      ul {
+        li {
+          background: url("../img/temenos-mini-logo.png") no-repeat left top;
+          text-align: left;
+          color: #333;
+          font-family: 'Raleway', sans-serif;
+          font-weight: 600;
+          font-size: 2.1rem;
+          line-height: 3rem;
+          max-width: 114rem;
+          display: block;
+          margin: auto;
+          margin-top: 6rem;
+          margin-bottom: 4rem;
+          padding-left: 5rem;
+        }
+      }
+    }
+
+  }
 }
 
 

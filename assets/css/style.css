@@ -700,7 +700,8 @@ footer {
 
   .temenos-banner {
     background: url("../../assets/img/temenos-banner-mobile.png") no-repeat center !important;
-    height: 50rem; }
+    height: 50rem;
+    background-size: cover; }
 
   .detail-temenos h4 {
     font-size: 5.5rem;
@@ -765,7 +766,8 @@ footer {
 
 .temenos-banner {
   background: url("../../assets/img/temenos-banner.png") no-repeat center;
-  height: 50rem; }
+  height: 50rem;
+  background-size: cover; }
 
 .temenos .about-temenos {
   margin-left: auto;

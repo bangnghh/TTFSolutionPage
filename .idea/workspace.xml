@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="1120" column="27" lean-forward="true" selection-start-line="1120" selection-start-column="27" selection-end-line="1120" selection-end-column="27" />
+            <state relative-caret-position="270">
+              <caret line="1210" column="25" selection-start-line="1210" selection-start-column="25" selection-end-line="1210" selection-end-column="25" />
               <folding>
                 <element signature="e#15701#15762#0" />
                 <element signature="e#15781#17978#0" />
@@ -232,12 +232,12 @@
       <workItem from="1583989592895" duration="8249000" />
       <workItem from="1584069710139" duration="4803000" />
       <workItem from="1584156870466" duration="8091000" />
-      <workItem from="1584328023208" duration="4159000" />
+      <workItem from="1584328023208" duration="4822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42171000" />
+    <option name="totallyTimeSpent" value="42834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -335,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="1120" column="27" lean-forward="true" selection-start-line="1120" selection-start-column="27" selection-end-line="1120" selection-end-column="27" />
+        <state relative-caret-position="270">
+          <caret line="1210" column="25" selection-start-line="1210" selection-start-column="25" selection-end-line="1210" selection-end-column="25" />
           <folding>
             <element signature="e#15701#15762#0" />
             <element signature="e#15781#17978#0" />
