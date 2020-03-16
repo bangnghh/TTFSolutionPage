@@ -738,8 +738,8 @@ footer {
       max-width: 114rem;
       display: block;
       margin: auto;
-      margin-top: 3rem;
-      margin-bottom: 0rem;
+      margin-top: 3rem !important;
+      margin-bottom: 0rem !important;
       padding-left: 5rem; } }
 @media (min-width: 1300px) {
   .container {
