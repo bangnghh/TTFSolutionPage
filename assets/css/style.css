@@ -171,6 +171,9 @@ a {
       position: relative;
       margin-bottom: 3.5rem;
       box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.07); }
+      .features .lower .features-box.col-md-4 .icon-box img {
+        width: 60%;
+        height: 60%; }
     .features .lower .features-box.col-md-4 h4 {
       color: #003c69;
       font-size: 2.2rem;
@@ -771,7 +774,7 @@ footer {
     max-width: 16rem;
     margin: 2rem auto; }
 .temenos .detail-temenos h4 {
-  font-size: 3.6rem;
+  font-size: 5.5rem;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   color: #01286E;
@@ -788,7 +791,25 @@ footer {
     background-color: #01286E; }
 .temenos .detail-temenos img {
   width: 100%;
-  margin: 3rem auto;
+  margin: 0 auto;
+  margin-top: 6rem;
   height: auto; }
+.temenos .detail-temenos .custom-container {
+  max-width: 99.6rem;
+  margin: 2rem auto; }
+  .temenos .detail-temenos .custom-container ul li {
+    background: url("../img/temenos-mini-logo.png") no-repeat left top;
+    text-align: justify;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    max-width: 114rem;
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    padding-left: 5rem; }
 
 /*# sourceMappingURL=style.css.map */
