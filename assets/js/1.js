@@ -22,6 +22,6 @@ $(document).ready(function () {
             $(".lan-flag").removeClass("flag-height");
             $(".lan-flag").addClass("ml-2");
         }
-
     })
 })
+
