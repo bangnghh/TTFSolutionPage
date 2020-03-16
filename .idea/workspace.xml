@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eb967e1-4258-4ec3-9ece-2b80e34c30f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="1210" column="25" selection-start-line="1210" selection-start-column="25" selection-end-line="1210" selection-end-column="25" />
+            <state relative-caret-position="312">
+              <caret line="1113" column="27" lean-forward="true" selection-start-line="1113" selection-start-column="27" selection-end-line="1113" selection-end-column="27" />
               <folding>
                 <element signature="e#15701#15762#0" />
                 <element signature="e#15781#17978#0" />
@@ -232,12 +230,12 @@
       <workItem from="1583989592895" duration="8249000" />
       <workItem from="1584069710139" duration="4803000" />
       <workItem from="1584156870466" duration="8091000" />
-      <workItem from="1584328023208" duration="4822000" />
+      <workItem from="1584328023208" duration="5032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42834000" />
+    <option name="totallyTimeSpent" value="43044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -335,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="1210" column="25" selection-start-line="1210" selection-start-column="25" selection-end-line="1210" selection-end-column="25" />
+        <state relative-caret-position="312">
+          <caret line="1113" column="27" lean-forward="true" selection-start-line="1113" selection-start-column="27" selection-end-line="1113" selection-end-column="27" />
           <folding>
             <element signature="e#15701#15762#0" />
             <element signature="e#15781#17978#0" />
