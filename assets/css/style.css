@@ -566,7 +566,7 @@ footer {
             font-weight: 400;
             color: #f7f7f7;
             max-width: 36rem !important;
-            margin-left: 3rem !important;
+            margin: 0 auto !important;
             letter-spacing: 0.2rem !important;
             text-align: center;
             margin-top: 2rem !important; }
