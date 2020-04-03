@@ -25,6 +25,9 @@ ol, ul {
 a {
   text-decoration: none !important; }
 
+.count {
+  display: block; }
+
 .header {
   width: 100%;
   background: white;
@@ -171,6 +174,9 @@ a {
       position: relative;
       margin-bottom: 3.5rem;
       box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.07); }
+      .features .lower .features-box.col-md-4 .icon-box img {
+        width: 60%;
+        height: 60%; }
     .features .lower .features-box.col-md-4 h4 {
       color: #003c69;
       font-size: 2.2rem;
@@ -380,7 +386,8 @@ footer {
   position: relative;
   width: 100%;
   height: 55rem;
-  background: url("../../assets/img/contact-banner.jpg") no-repeat fixed; }
+  background: url("../../assets/img/contact-banner.jpg") no-repeat fixed;
+  background-size: cover; }
   .contact-banner .contact-banner-graylayer {
     width: 100%;
     height: 100%;
@@ -693,7 +700,51 @@ footer {
             color: white;
             font-size: 3rem;
             line-height: 5rem;
-            margin-right: 2rem; } }
+            margin-right: 2rem; }
+
+  .temenos-banner {
+    background: url("../../assets/img/temenos-banner-mobile.png") no-repeat center !important;
+    height: 50rem;
+    background-size: cover; }
+
+  .detail-temenos h4 {
+    font-size: 5.5rem;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #01286E;
+    margin: 3rem auto;
+    position: relative; }
+    .detail-temenos h4:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -30px;
+      width: 100px;
+      height: 4px;
+      margin-left: -50px;
+      background-color: #01286E; }
+  .detail-temenos img {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    height: auto; }
+  .detail-temenos .custom-container {
+    max-width: 99.6rem;
+    margin: 2rem auto; }
+    .detail-temenos .custom-container ul li {
+      background: url("../img/temenos-mini-logo.png") no-repeat left top;
+      text-align: left;
+      color: #333;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      font-size: 2.1rem;
+      line-height: 3rem;
+      max-width: 114rem;
+      display: block;
+      margin: auto;
+      margin-top: 3rem !important;
+      margin-bottom: 0rem !important;
+      padding-left: 5rem; } }
 @media (min-width: 1300px) {
   .container {
     max-width: 1140px; } }
@@ -718,8 +769,9 @@ footer {
   height: 1.5rem !important; }
 
 .temenos-banner {
-  background: url("../../assets/img/temenos-banner.jpg") no-repeat center;
-  height: 50rem; }
+  background: url("../../assets/img/temenos-banner.png") no-repeat center;
+  height: 50rem;
+  background-size: contain; }
 
 .temenos .about-temenos {
   margin-left: auto;
@@ -771,7 +823,7 @@ footer {
     max-width: 16rem;
     margin: 2rem auto; }
 .temenos .detail-temenos h4 {
-  font-size: 3.6rem;
+  font-size: 5.5rem;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   color: #01286E;
@@ -788,7 +840,25 @@ footer {
     background-color: #01286E; }
 .temenos .detail-temenos img {
   width: 100%;
-  margin: 3rem auto;
+  margin: 0 auto;
+  margin-top: 6rem;
   height: auto; }
+.temenos .detail-temenos .custom-container {
+  max-width: 99.6rem;
+  margin: 2rem auto; }
+  .temenos .detail-temenos .custom-container ul li {
+    background: url("../img/temenos-mini-logo.png") no-repeat left top;
+    text-align: left;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 3rem;
+    max-width: 114rem;
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    padding-left: 5rem; }
 
 /*# sourceMappingURL=style.css.map */

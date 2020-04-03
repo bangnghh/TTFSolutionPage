@@ -21,7 +21,9 @@
 <div class="header">
     <div class="container">
         <nav class="navbar navbar-expand-sm navbar-light bg-dark">
-            <a class="navbar-brand" href="#"><img class="logo" src="https://bangnghh.github.io/TTFSolutionPage/assets/img/logo.png" alt=""></a>
+            <a class="navbar-brand" href="../index.html"><img class="logo"
+                                                              src="https://bangnghh.github.io/TTFSolutionPage/assets/img/logo.png"
+                                                              alt=""></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                     data-target="#collapsibleNavId"
                     aria-controls="collapsibleNavId"
@@ -69,13 +71,13 @@
 
 <!--
 code here-->
-<div class="contact-banner temenos-banner">
+<div class="contact-banner temenos-banner wow fadeInDown">
     <div class="container">
     </div>
 </div>
 <div class="temenos">
     <div class="container">
-        <div class="about-temenos text-center">
+        <div class="about-temenos text-center wow fadeIn">
             <h3>About Temenos</h3>
             <h4>Temenos Recognized as a Leader for 10th Time in Gartner Magic Quadrant for Global Retail Core
                 Banking</h4>
@@ -85,10 +87,10 @@ code here-->
             <p>Head Office: Temenos Headquarters SA 2 Rue de l’Ecole-de-Chimie CH - 1205 Geneva Switzerland
             </p>
         </div>
-        <div class="number-about-temenos">
+        <div class="number-about-temenos wow fadeIn">
             <div class="row">
                 <div class="col-md-3 col-xs-12 text-center">
-                    <h1>41</h1>
+                    <h1 class="count">41</h1>
                     <p>41 of top 50 banks run Temenos</p>
                 </div>
                 <div class="col-md-3 col-xs-12 text-center">
@@ -100,17 +102,36 @@ code here-->
                     <p>$2 billion USD cumulative R&D investment 1990-2018</p>
                 </div>
                 <div class="col-md-3 col-xs-12 text-center">
-                    <h1>330</h1>
+                    <h1 class="count">330</h1>
                     <p>330 successful deployments in 2019</p>
                 </div>
             </div>
         </div>
         <div class="detail-temenos text-center">
-            <h4>T24 Core-banking Product & Services</h4>
-            <img src="../assets/img/temenos-services.png">   
-        </div>
 
+            <h4 class="wow fadeInDown">T24 Core-banking Product & Services</h4>
+            <img class="wow fadeInDown" src="../assets/img/temenos-services.png">
+            <div class="custom-container wow fadeInLeft">
+                <ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <li>T24 Version Upgrade</li>
+                            <li>Core-banking Data Migration</li>
+                            <li>COB & Performance Tuning (application & database)</li>
+                            <li>Outsourcing development</li>
+                        </div>
+                        <div class="col-md-6">
+                            <li>Core-banking mismatch Control</li>
+                            <li>T24 Health check & maintenance services</li>
+                            <li>T24 Training</li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
     </div>
+
+</div>
 </div>
 
 <footer>
@@ -121,7 +142,7 @@ code here-->
                 <ul>
                     <li><a href="t24-corebanking.html"><p>Core Banking</p></a></li>
                     <li><a href="../index.html#software"><p>Development</p></a></li>
-                    <li><a href="../index.html#techConsultant"><p>Consultant</p></a></li>                   
+                    <li><a href="../index.html#techConsultant"><p>Consultant</p></a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-xs-12">
@@ -156,8 +177,9 @@ code here-->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -166,6 +188,7 @@ code here-->
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script src="../assets/js/1.js"></script>
+<script src="../assets/js/2.js"></script>
 <script src="../assets/js/wow.min.js"></script>
 <script>
     new WOW().init();
